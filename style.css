@@ -1,0 +1,105 @@
+    
+    
+    body {
+        background: url(https://avatanplus.com/files/resources/original/5c5b167626e43168c3cfbd8f.jpg) bottom center no-repeat;
+        background-size: 180% 150%;
+        
+    }
+    /*правило для элементов main*/
+    main {
+        margin-left: 30px;
+        margin-right: 30px;
+        
+        
+    }
+    /*правило для элементов относящихся к классу a_footer*/
+    .a_footer {
+        display: block;
+    }
+    h1 {
+        text-align: center;
+        padding: 20px 10px 0px 0px;
+    }
+    /*подключаем картинку для шапки*/
+    header {
+        background: url(https://million-wallpapers.ru/wallpapers/4/41/538223969968184/matrica-nasyshhennyj-zelenyj-dizajn.jpg) bottom center no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 150px;
+        color: white;
+        text-align:center;
+       
+    }
+    @media (max-width : 690px ) {
+        h1 {
+            font-size:medium !important;
+
+                    
+        }
+    }
+
+    @media (max-width : 370px) {
+        header {
+            content-visibility:hidden; 
+        }
+    }
+    
+    
+    adress {
+        text-align: center;
+    }
+    .flex_ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-items: center;
+    }
+    .flex_item {
+        flex-basis: 120px;
+        flex-grow: 1;
+        margin-right: 15px;
+    }
+    .flex_item2 {
+        flex-basis: 120px;
+        flex-grow: 1;
+        margin-right: 5px;
+    }
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+   
+    @media (max-width : 600px) {
+        .carousel-inner {
+            padding-bottom: 60% !important;
+        }
+    }
+    @media (max-width : 300px) {
+        .carousel-inner {
+            padding-bottom: 0% !important;
+        }
+    }
+    .carousel-inner {
+        
+        height: 0;
+        padding-bottom: 30%; /* this sets carousel aspect ratio (4:1 here) */
+      }
+      
+    .carousel-item {
+        position: absolute !important; /* Bootstrap is insistent */
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      
+    .carousel-item img {
+        height: 100%; /* Bootstrap handles width already */
+        object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+      }
+
+    .flex_ol {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-items:left;
+    }
